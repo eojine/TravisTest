@@ -6,7 +6,7 @@ target 'TravisTest' do
   use_frameworks!
 
   # Pods for TravisTest
-  pod 'SwitLint'
+  pod 'SwiftLint'
 
   target 'TravisTestTests' do
     inherit! :search_paths
