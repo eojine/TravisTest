@@ -1,0 +1,9 @@
+language: swift
+osx_image: xcode10.1
+xcode_workspace: TravisTest.xcworkspace
+xcode_scheme: TravisTest
+xcode_destination: platform=iOS Simulator,OS=12.1,name=iPhone X
+before_install:
+- gem install cocoapods-acknowledgements
+- gem install cocoapods
+- pod update
