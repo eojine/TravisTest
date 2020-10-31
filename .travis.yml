@@ -1,4 +1,4 @@
-language: objective-c
+language: swift
 osx_image: xcode11
 xcode_workspace: TravisTest.xcworkspace
 xcode_scheme: TravisTest
